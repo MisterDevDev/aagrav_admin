@@ -1,6 +1,9 @@
 {
-  "name": "nextjs-material-dashboard-pro",
+  "name": "aagrav-admin",
   "version": "1.1.0",
+  "engines": {
+    "node": "14.x"
+  },
   "private": true,
   "scripts": {
     "start": "next start",
