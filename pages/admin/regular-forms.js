@@ -97,8 +97,8 @@ function RegularForms() {
                 }}
               />
               <CustomInput
-                labelText="Token Id"
-                id="token_id"
+                labelText="Consumer Id"
+                id="consumer_id"
                 formControlProps={{
                   fullWidth: true,
                 }}
@@ -108,8 +108,8 @@ function RegularForms() {
                 }}
               />
               <CustomInput
-                labelText="Token Secret"
-                id="token_secret"
+                labelText="Consumer Secret"
+                id="consumer_secret"
                 formControlProps={{
                   fullWidth: true,
                 }}
@@ -136,7 +136,7 @@ function RegularForms() {
         <Card>
           <CardHeader color="rose" text>
             <CardText color="rose">
-              <h4 className={classes.cardTitle}>Consumer Keys</h4>
+              <h4 className={classes.cardTitle}>Token Keys</h4>
             </CardText>
             <div style={{ display: "flex", justifyContent: "end" }}>
               <Button color="rose" onClick={addKey}>
@@ -150,8 +150,8 @@ function RegularForms() {
                 return (
                   <div key={key}>
                     <CustomInput
-                      labelText={`Consumer Key #${key}`}
-                      id="consumer_key"
+                      labelText={`Token Id #${key}`}
+                      id="token_id"
                       formControlProps={{
                         fullWidth: true,
                       }}
@@ -160,8 +160,8 @@ function RegularForms() {
                       }}
                     />
                     <CustomInput
-                      labelText={`Consumer Secret #${key}`}
-                      id="consumer_secret"
+                      labelText={`Token Secret #${key}`}
+                      id="token_secret"
                       formControlProps={{
                         fullWidth: true,
                       }}
